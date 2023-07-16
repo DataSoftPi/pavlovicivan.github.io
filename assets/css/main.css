@@ -51,6 +51,33 @@ table {
 	border-spacing: 0;
 }
 
+.contact-card {
+    display: flex;
+    justify-content: space-between;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.social-icons ul {
+    display: flex;
+    list-style-type: none;
+}
+
+
 body {
 	-webkit-text-size-adjust: none;
 }
