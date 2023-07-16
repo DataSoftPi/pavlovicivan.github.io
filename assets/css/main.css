@@ -65,6 +65,19 @@ table {
     text-align: center;
 }
 
+/* Responsive styling for small screens */
+@media (max-width: 600px) {
+    .contact-card {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        margin-bottom: 15px;
+    }
+}
+
+}
+
 .social-icons {
     display: flex;
     justify-content: center;
